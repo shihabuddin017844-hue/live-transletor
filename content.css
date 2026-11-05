@@ -1,0 +1,49 @@
+.ws-popup {
+  position: absolute;
+  z-index: 2147483647;
+  background: #1e1e2e;
+  color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  font-family: Arial, sans-serif;
+  min-width: 160px;
+  max-width: 280px;
+}
+.ws-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.ws-word {
+  font-size: 13px;
+  color: #9aa0b4;
+}
+.ws-speak {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+  line-height: 1;
+}
+.ws-meaning {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.ws-save {
+  background: #4f8cff;
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.ws-save:disabled {
+  background: #555a6e;
+  cursor: default;
+}
